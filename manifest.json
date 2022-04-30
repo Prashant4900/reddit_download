@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Downloader",
+  "version": "1.0",
+  "description": "Downloads images and videos from reddit in just one clicks.",
+
+  "background": {
+    "service_worker": "serviceWorker.js"
+  },
+
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["scripting", "storage"]
+}
